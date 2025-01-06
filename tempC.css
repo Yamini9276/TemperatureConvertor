@@ -1,0 +1,58 @@
+body{
+    font-family:'Times New Roman', Times, serif
+}
+.temp1 {
+    margin: 10px;
+    border: 1.6px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 90px;
+    width: 100vmin;
+   
+}
+#number{
+    height: 4vmin;
+    width:9vmin;
+    border: 8px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    color: black;
+    display: inline;
+    align-items: center;
+}
+#From {
+    height: 4vmin;
+    width:auto;
+    border: 8px;
+    margin: 10px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    color: black;
+    display: inline;
+    align-items: center;
+}
+#to{
+    height: 4vmin;
+    width:auto;
+    border: 8px;
+    margin: 10px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    color: black;
+    display: inline;
+    align-items: center;
+}
+.btn {
+    background-color: black;
+    height: 4vmin;
+    width: 10vmin;
+    border: 8px;
+    margin: 10px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    color:white;
+}
+.btn1{
+    opacity: 0.5;
+}
+

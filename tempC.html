@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tempC.css"></link>
+</head>
+<body>
+    <div class="temp1">
+        <h2>Temperature Converter</h2>
+        <p>Enter the temperature,select units and submit</p>
+        <div class="temp2">
+        <input id="number" type="number" placeholder="0.00">
+        <!-- <label for="fruits">Choose a fruit:</label> -->
+        <select id="From" name="From" placeholder="From Unit">
+          <option value="" disabled selected hidden>From Unit</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+          <option value="Celsius ">Celsius</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
+        <select id="to" name="to" Placeholder="To Unit">
+            <option value="" disabled selected hidden>To Unit</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celsius ">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+          </select>
+          <button class="btn btn1">Convert</button>
+        
+        </div>
+        
+    </div>
+    <script src="tempC.js"></script>
+</body>
+</html>
